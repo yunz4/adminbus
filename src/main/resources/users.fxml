@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.UserController">
+
+    <TableView fx:id="userTable" layoutX="10" layoutY="11.0" prefHeight="350.0" prefWidth="530.0">
+        <columns>
+            <TableColumn fx:id="nom" prefWidth="100" text="Nom" />
+            <TableColumn fx:id="prenom" prefWidth="100" text="Prénom" />
+            <TableColumn fx:id="email" prefWidth="150" text="Email" />
+            <TableColumn fx:id="age" prefWidth="50" text="Age" />
+            <TableColumn fx:id="sex" prefWidth="50" text="Sexe" />
+            <TableColumn fx:id="actionColumn" prefWidth="80" text="Action">
+
+            </TableColumn>
+        </columns>
+    </TableView>
+    <Button layoutX="10.0" layoutY="361.0" onAction="#goBackToMain" text="Retour" />
+
+
+
+
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.web.WebView?>
+<VBox fx:id="mainLayout" alignment="CENTER" maxHeight="600.0" maxWidth="800.0" spacing="20" stylesheets="style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainController">
+    <Label style="-fx-font-size: 20; -fx-font-family: Arial;" text="Ajouter une Route" />
+    <TextField fx:id="originename" maxHeight="26.0" maxWidth="100.0" promptText="Origine" />
+    <TextField fx:id="Destname" maxHeight="26.0" maxWidth="100.0" promptText="Destination" />
+    <TextField fx:id="routeid_field" maxHeight="26.0" maxWidth="100.0" promptText="ID de la route" />
+    <Button onAction="#goBackToHome" text="Retour à l'accueil" />
+    <Button onAction="#AjouterRoute" text="Ajouter" />
+
+</VBox>

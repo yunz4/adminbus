@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.web.WebView?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainController">
+
+    <VBox alignment="CENTER" layoutX="200.0" layoutY="100.0" spacing="20.0">
+        <Button styleClass="menu-button" onAction="#goToUserPage" text="Gérer les utilisateurs">
+
+        </Button>
+        <Button styleClass="menu-button" onAction="#goToRoutePage" text="Gérer les itinéraires">
+
+        </Button>
+        <Button styleClass="menu-button" text="Notifications">
+
+        </Button>
+    </VBox>
+
+
+</AnchorPane>
